@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 def calculate_result(mark1, mark2, mark3):
-    total = mark1 + mark2 + mark3
+    total = mark1 + mark2
     average = total / 3
 
     if average >= 40:
